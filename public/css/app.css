@@ -37,16 +37,6 @@ li {
   display: flex;
   height: 100vh;
 }
-.back-txt {
-  font-size: .85em;
-  font-weight: 300;
-  text-decoration: none;
-  color: #363636;
-}
-.back-txt:hover {
-  cursor: pointer;
-  color: #000000;
-}
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.2.1
@@ -5569,4 +5559,43 @@ li {
 .hvr-float:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+}
+.col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 25%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-header {
+  font-size: 8rem;
+  margin: 0;
+}
+.grid {
+  display: grid;
+  height: 75%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+.grid-item {
+  background: #447f7a;
+  border: 1px solid #122120;
+}
+.bfr {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  color: #ffffff;
+  margin: 0;
+  font-size: 3rem;
+  text-align: left;
 }

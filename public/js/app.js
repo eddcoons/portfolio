@@ -34679,7 +34679,7 @@ var routes = [{
     'path': '/contact',
     'component': __WEBPACK_IMPORTED_MODULE_8__components_contact_vue___default.a
 }, {
-    'path': '/case-studies',
+    'path': '/casestudies',
     'component': __WEBPACK_IMPORTED_MODULE_9__components_casestudies_vue___default.a
 }];
 /* harmony default export */ __webpack_exports__["a"] = (routes);
@@ -46245,42 +46245,44 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("h2", [_vm._v("Case Studies")]),
-    _vm._v(" "),
-    _c(
-      "nav",
-      { staticClass: "right-nav" },
-      [
-        _c(
-          "router-link",
-          {
-            staticClass: "nav-link hvr-float active",
-            attrs: { to: "/casestudies" }
-          },
-          [_vm._v("Case Studies")]
-        ),
-        _vm._v(" "),
-        _c(
-          "router-link",
-          { staticClass: "nav-link hvr-float ", attrs: { to: "/skills" } },
-          [_vm._v("Skills")]
-        ),
-        _vm._v(" "),
-        _c(
-          "router-link",
-          { staticClass: "nav-link hvr-float ", attrs: { to: "/" } },
-          [_vm._v("About")]
-        ),
-        _vm._v(" "),
-        _c(
-          "router-link",
-          { staticClass: "nav-link hvr-float ", attrs: { to: "/contact" } },
-          [_vm._v("Contact")]
-        )
-      ],
-      1
-    ),
+  return _c("div", { staticClass: "container col" }, [
+    _c("div", { staticClass: "header" }, [
+      _c("h2", { staticClass: "page-header" }, [_vm._v("Case Studies")]),
+      _vm._v(" "),
+      _c(
+        "nav",
+        { staticClass: "right-nav" },
+        [
+          _c(
+            "router-link",
+            {
+              staticClass: "nav-link hvr-float active",
+              attrs: { to: "/casestudies" }
+            },
+            [_vm._v("Case Studies")]
+          ),
+          _vm._v(" "),
+          _c(
+            "router-link",
+            { staticClass: "nav-link hvr-float ", attrs: { to: "/skills" } },
+            [_vm._v("Skills")]
+          ),
+          _vm._v(" "),
+          _c(
+            "router-link",
+            { staticClass: "nav-link hvr-float ", attrs: { to: "/" } },
+            [_vm._v("About")]
+          ),
+          _vm._v(" "),
+          _c(
+            "router-link",
+            { staticClass: "nav-link hvr-float ", attrs: { to: "/contact" } },
+            [_vm._v("Contact")]
+          )
+        ],
+        1
+      )
+    ]),
     _vm._v(" "),
     _vm._m(0)
   ])
@@ -46291,17 +46293,27 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "grid" }, [
-      _c("div", { staticClass: "grid-item item1" }),
+      _c("div", { staticClass: "grid-item item1" }, [
+        _c("h3", { staticClass: "bfr" }, [_vm._v("BRAIN")]),
+        _vm._v(" "),
+        _c("h3", { staticClass: "bfr" }, [_vm._v("FRAME")]),
+        _vm._v(" "),
+        _c("h3", { staticClass: "bfr" }, [_vm._v("RECALL")])
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "grid-item item2" }),
+      _c("div", { staticClass: "grid-item item2" }, [
+        _vm._v("Salary Calculator")
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "grid-item item3" }),
+      _c("div", { staticClass: "grid-item item3" }, [
+        _vm._v("Renaissance Artists")
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "grid-item item4" }),
+      _c("div", { staticClass: "grid-item item4" }, [_vm._v("Word Count")]),
       _vm._v(" "),
-      _c("div", { staticClass: "grid-item item5" }),
+      _c("div", { staticClass: "grid-item item5" }, [_vm._v("Pepper Rodeo")]),
       _vm._v(" "),
-      _c("div", { staticClass: "grid-item item6" })
+      _c("div", { staticClass: "grid-item item6" }, [_vm._v("PortoVino")])
     ])
   }
 ]

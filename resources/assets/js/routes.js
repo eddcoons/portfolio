@@ -50,7 +50,7 @@ let routes = [
         'component' : contact
     },
     {
-        'path' : '/case-studies',
+        'path' : '/casestudies',
         'component' : casestudies
     },
 

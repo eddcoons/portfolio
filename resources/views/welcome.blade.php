@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://use.typekit.net/iyh2opq.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
         <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
