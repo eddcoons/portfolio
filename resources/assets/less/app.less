@@ -1,0 +1,46 @@
+@brand-color: #447f7a;
+@brand-dark: #122120;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "grafolita-script",sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: @brand-color;
+}
+h1 {
+  font-size: 18em;
+  margin: 0;
+}
+h2 {
+  font-weight: 300;
+}
+p, ul, li, a {
+  font-family: 'Lato', sans-serif;
+  color: @brand-dark;
+}
+p {
+  font-weight: 300;
+}
+li {
+  list-style: none;
+  font-weight: 300;
+  font-size: .75em;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.back-txt {
+  font-size: .85em;
+  font-weight: 300;
+  text-decoration: none;
+  color: #363636;
+}
+.back-txt:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+@import "./../../../node_modules/hover.css/less/hover.less";
+@import "./home";
+@import "./custom-hover";
