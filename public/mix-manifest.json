@@ -1,4 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/css/salarycalc.css": "/css/salarycalc.css",
+    "/css/wordcounter.css": "/css/wordcounter.css",
+    "/js/salary_calc.js": "/js/salary_calc.js"
 }

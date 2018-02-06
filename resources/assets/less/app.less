@@ -1,19 +1,25 @@
-@brand-color: #447f7a;
-@brand-dark: #122120;
+@brand-color: #90a955;
+@brand-dark: #3f3f3f;
+@brand-white: #f5f5f5;
+@brand-light: #f9fbf6;
+body {
+  background: @brand-white;
+  margin: 0;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "grafolita-script",sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  text-align: center;
-  color: @brand-color;
+  color: @brand-dark;
 }
 h1 {
   font-size: 18em;
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 h2 {
   font-weight: 300;
 }
-p, ul, li, a {
+p, ul, li, a, span, div {
   font-family: 'Lato', sans-serif;
   color: @brand-dark;
 }
@@ -28,11 +34,11 @@ li {
 
 .container {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  //height: 100vh;
 }
 
 
 @import "./../../../node_modules/hover.css/less/hover.less";
 @import "./home";
 @import "./custom-hover";
-@import "./casestudies";

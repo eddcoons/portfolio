@@ -1119,7 +1119,9 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);
-module.exports = __webpack_require__(54);
+__webpack_require__(54);
+__webpack_require__(55);
+module.exports = __webpack_require__(56);
 
 
 /***/ }),
@@ -34622,31 +34624,10 @@ if (inBrowser && window.Vue) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_home_vue__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_home_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_home_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_pepperrodeo_vue__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_pepperrodeo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_pepperrodeo_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_salarycalculator_vue__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_salarycalculator_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_salarycalculator_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_brainframe_vue__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_brainframe_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_brainframe_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_portovino_vue__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_portovino_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_portovino_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_renaissanceartists__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_renaissanceartists___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_renaissanceartists__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_wordcount_vue__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_wordcount_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_wordcount_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_skills_vue__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_skills_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_skills_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_contact_vue__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_contact_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__components_contact_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_casestudies_vue__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_casestudies_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__components_casestudies_vue__);
-
-
-
-
-
-
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_salarycalculator_vue__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_salarycalculator_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_salarycalculator_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_wordcount_vue__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_wordcount_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_wordcount_vue__);
 
 
 
@@ -34655,32 +34636,11 @@ var routes = [{
     'path': '/',
     'component': __WEBPACK_IMPORTED_MODULE_0__components_home_vue___default.a
 }, {
-    'path': '/brainframe',
-    'component': __WEBPACK_IMPORTED_MODULE_3__components_brainframe_vue___default.a
-}, {
-    'path': '/pepperrodeo',
-    'component': __WEBPACK_IMPORTED_MODULE_1__components_pepperrodeo_vue___default.a
-}, {
-    'path': '/portovino',
-    'component': __WEBPACK_IMPORTED_MODULE_4__components_portovino_vue___default.a
-}, {
-    'path': '/renaissanceartists',
-    'component': __WEBPACK_IMPORTED_MODULE_5__components_renaissanceartists___default.a
-}, {
     'path': '/salarycalculator',
-    'component': __WEBPACK_IMPORTED_MODULE_2__components_salarycalculator_vue___default.a
+    'component': __WEBPACK_IMPORTED_MODULE_1__components_salarycalculator_vue___default.a
 }, {
     'path': '/wordcount',
-    'component': __WEBPACK_IMPORTED_MODULE_6__components_wordcount_vue___default.a
-}, {
-    'path': '/skills',
-    'component': __WEBPACK_IMPORTED_MODULE_7__components_skills_vue___default.a
-}, {
-    'path': '/contact',
-    'component': __WEBPACK_IMPORTED_MODULE_8__components_contact_vue___default.a
-}, {
-    'path': '/casestudies',
-    'component': __WEBPACK_IMPORTED_MODULE_9__components_casestudies_vue___default.a
+    'component': __WEBPACK_IMPORTED_MODULE_2__components_wordcount_vue___default.a
 }];
 /* harmony default export */ __webpack_exports__["a"] = (routes);
 
@@ -34690,6 +34650,158 @@ var routes = [{
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -34732,87 +34844,405 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "main-section" }, [
-      _c(
-        "nav",
-        { staticClass: "right-nav" },
-        [
-          _c(
-            "router-link",
-            {
-              staticClass: "nav-link hvr-float ",
-              attrs: { to: "/casestudies" }
-            },
-            [_vm._v("Case Studies")]
-          ),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-link hvr-float ", attrs: { to: "/skills" } },
-            [_vm._v("Skills")]
-          ),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-link hvr-float  active", attrs: { to: "/" } },
-            [_vm._v("About")]
-          ),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-link hvr-float ", attrs: { to: "/contact" } },
-            [_vm._v("Contact")]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _vm._m(2)
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "side-section" }, [
-      _c("img", {
-        staticClass: "side-img",
-        attrs: { src: "/img/emilyimg2.jpg" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "brand-section" }, [
-      _c("h1", { staticClass: "brand-logo-top" }, [_vm._v("Emily")]),
-      _vm._v(" "),
-      _c("h1", { staticClass: "brand-logo-bottom" }, [_vm._v("Coons")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "main-section__text" }, [
-      _c("p", [
-        _vm._v(
-          "I believe in giving 100%, remembering that everyone has a story and creating beautifully easy-to-use websites."
-        )
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "top-section" }, [
+        _c("div", { staticClass: "top-side" }, [
+          _c("img", {
+            staticClass: "side-img",
+            attrs: { src: "/img/eddc.svg" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("h2", { staticClass: "top-text" }, [
+          _vm._v(
+            "Hello, I’m Emily.\n        I love creating simple, easy-to-use designs,\n        applications, and websites.\n\n    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("h2", { staticClass: "typewriter-text" }, [
+          _vm._v("Let’s build something awesome.")
+        ])
       ]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "After working with poorly designed software, poorly planned projects and in enviroments where people can only see dollar signs, I have decided to use my talents for good. I strive to create based on data and with a true desire to make someone else’s life easier."
-        )
+      _c("div", { staticClass: "angle-white" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "banner-section" }, [
+        _c("h3", { staticClass: "section-heading" }, [_vm._v("My Skills")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "grid-3" }, [
+          _c("div", { staticClass: "col-3" }, [
+            _c("div", [
+              _c("img", {
+                staticClass: "section-icon",
+                attrs: { src: "/img/lightblub.svg" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("h4", [_vm._v("Ideas")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "I love digging into the why of a project so\n                I can figure out the best way to address it.\n                And I love creating a project with a team fully\n                engaged and excited to produce a wonderful result.\n            "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-3" }, [
+            _c("div", [
+              _c("img", {
+                staticClass: "section-icon",
+                attrs: { src: "/img/design.svg" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("h4", [_vm._v("Design")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Stellar designs come from a user focus and are easy-to-use. If a user can't figure how to do what they want to on a site or in an application then what was the point of creating it? I use mockups and wireframes before jumping into final designing and coding.\n            "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-3" }, [
+            _c("div", [
+              _c("img", {
+                staticClass: "section-icon",
+                attrs: { src: "/img/code.svg" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("h4", [_vm._v("Code")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "I enjoy coding from scratch using HTML5, CSS3 (Flexbox & CSS Grid) and some JavaScript. Responsive design is a must and I always try to design for mobile first.\n            "
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "angle-green" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "display-section" }, [
+        _c("h3", { staticClass: "section-heading" }, [_vm._v("My Work")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "info-section" }, [
+          _c("img", {
+            staticClass: "list-img",
+            attrs: { src: "/img/brainframe.jpg" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "info-text" }, [
+            _c("h4", { staticClass: "sub-heading" }, [
+              _vm._v("Brainframe Recall")
+            ]),
+            _vm._v(" "),
+            _c("h5", { staticClass: "meta-info" }, [
+              _vm._v("Design & Development")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Brainframe Recall is a replacement for Delicious (RIP) and manages links you\n                want to save all in one place. The developer working on this project\n                has advanced filter coming soon and I’m excited to work this into my design."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "main-button hvr-outline-out",
+                attrs: {
+                  onclick: "window.open('https://www.brainframerecall.com')"
+                }
+              },
+              [_vm._v("Visit Website")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "info-section" }, [
+          _c("img", {
+            staticClass: "list-img",
+            attrs: { src: "/img/portovino.jpg" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "info-text" }, [
+            _c("h4", { staticClass: "sub-heading" }, [
+              _vm._v("PortoVino Wine Purse")
+            ]),
+            _vm._v(" "),
+            _c("h5", { staticClass: "meta-info" }, [
+              _vm._v("Design & Code Customization ")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "After a viral video hit, the creators of PortoVino realized they needed to create\n                a website that separated the purse as its own brand. I customized the chosen\n                Shopify theme (layout and custom code)."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "main-button hvr-outline-out",
+                attrs: { onclick: "window.open('https://www.porto-vino.com')" }
+              },
+              [_vm._v("Visit Website")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "info-section" }, [
+          _c("img", {
+            staticClass: "list-img",
+            attrs: { src: "/img/salary_calc.jpg" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "info-text" }, [
+            _c("h4", { staticClass: "sub-heading" }, [
+              _vm._v("Salary Calculator")
+            ]),
+            _vm._v(" "),
+            _c("h5", { staticClass: "meta-info" }, [
+              _vm._v("Design & Development")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "A personal project meant to help keep my vanilla JavaScript skills sharp and giving\n            me a chance to design a simple application. Fully responsive and it negates the need\n            to pull out a calculator when on the job hunt ;)."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "main-button hvr-outline-out",
+                attrs: { onclick: "window.open('/#/salarycalculator')" }
+              },
+              [_vm._v("View Project")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "info-section" }, [
+          _c("img", {
+            staticClass: "list-img",
+            attrs: { src: "/img/pepper_rodeo.jpg" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "info-text" }, [
+            _c("h4", { staticClass: "sub-heading" }, [_vm._v("Pepper Rodeo")]),
+            _vm._v(" "),
+            _c("h5", { staticClass: "meta-info" }, [
+              _vm._v("Design & Development")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Pepper Rodeo is a recipe and grocery list management application. Version 2.0 is\n            currently in production, but version 1.0 is live. You can check it out below. This app\n            allows you to add recipes to a list and combine like items."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "main-button hvr-outline-out",
+                attrs: { onclick: "window.open('https://www.pepperrodeo.com')" }
+              },
+              [_vm._v("Visit Website")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "info-section" }, [
+          _c("img", {
+            staticClass: "list-img",
+            attrs: { src: "/img/word_counter.jpg" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "info-text" }, [
+            _c("h4", { staticClass: "sub-heading" }, [_vm._v("Word Counter")]),
+            _vm._v(" "),
+            _c("h5", { staticClass: "meta-info" }, [
+              _vm._v("Design & Development")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Another personal project with a focus on vanilla JavaScript and simple design.\n            It was also fun figuring out how to animate the numbers counting effect. Check it\n            out below."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "main-button hvr-outline-out",
+                attrs: { onclick: "window.open('/#/wordcount')" }
+              },
+              [_vm._v("View Project")]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "angle-white z-5" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "contact-section" }, [
+        _c("h3", { staticClass: "section-heading" }, [
+          _vm._v("Want to get in touch?")
+        ]),
+        _vm._v(" "),
+        _c("h3", { staticClass: "contact-info" }, [
+          _vm._v("Shoot me an email at:")
+        ]),
+        _vm._v(" "),
+        _c("h3", { staticClass: "contact-info" }, [
+          _vm._v("contact@emilydcoons.com")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("footer", [
+        _c("span", { staticClass: "copyright" }, [
+          _vm._v("Made from scratch by me © 2018")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "social-icons" }, [
+          _c(
+            "span",
+            {
+              staticClass: "sm-wrapper hvr-wobble-vertical",
+              attrs: { onclick: "window.open('https://github.com/eddcoons')" }
+            },
+            [
+              _c("img", {
+                staticClass: "sm-icon",
+                attrs: { src: "/img/github.svg" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "span",
+            {
+              staticClass: "sm-wrapper hvr-wobble-vertical",
+              attrs: {
+                onclick:
+                  "window.open('https://www.linkedin.com/in/emilydcoons/')"
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "sm-icon",
+                attrs: { src: "/img/linkedin.svg" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "span",
+            {
+              staticClass: "sm-wrapper hvr-wobble-vertical",
+              attrs: {
+                onclick:
+                  "window.open('https://www.instagram.com/eddcoons/?hl=en')"
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "sm-icon",
+                attrs: { src: "/img/instagram.svg" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "span",
+            {
+              staticClass: "sm-wrapper hvr-wobble-vertical",
+              attrs: { onclick: "window.open('https://twitter.com/eddcoons')" }
+            },
+            [
+              _c("img", {
+                staticClass: "sm-icon",
+                attrs: { src: "/img/twitter.svg" }
+              })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "attrib" }, [
+          _vm._v("Many thanks to the following icon creators:\n        "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://www.flaticon.com/authors/stephen-hutchings",
+                title: "Stephen Hutchings"
+              }
+            },
+            [_vm._v("Stephen Hutchings")]
+          ),
+          _vm._v(" |\n        "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://www.flaticon.com/authors/elegant-themes",
+                title: "Elegant Themes"
+              }
+            },
+            [_vm._v("Elegant Themes")]
+          ),
+          _vm._v(" |\n        "),
+          _c(
+            "a",
+            { attrs: { href: "http://www.freepik.com", title: "Freepik" } },
+            [_vm._v("Freepik")]
+          ),
+          _vm._v(" |\n        "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://www.flaticon.com/authors/simpleicon",
+                title: "SimpleIcon"
+              }
+            },
+            [_vm._v("SimpleIcon")]
+          ),
+          _vm._v(" |\n        "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://www.flaticon.com/authors/puppets",
+                title: "Puppets"
+              }
+            },
+            [_vm._v("Puppets")]
+          ),
+          _vm._v(" |\n        Licensed by "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "http://creativecommons.org/licenses/by/3.0/",
+                title: "Creative Commons BY 3.0",
+                target: "_blank"
+              }
+            },
+            [_vm._v("CC 3.0 BY")]
+          )
+        ])
       ])
     ])
   }
@@ -34827,44 +35257,16 @@ if (false) {
 }
 
 /***/ }),
-/* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/pepperrodeo.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
+/* 41 */,
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = null
+var __vue_template__ = __webpack_require__(43)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -34883,6 +35285,22 @@ var Component = normalizeComponent(
 )
 Component.options.__file = "resources/assets/js/components/salarycalculator.vue"
 
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-8ead9f3a", Component.options)
+  } else {
+    hotAPI.reload("data-v-8ead9f3a", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
 module.exports = Component.exports
 
 
@@ -34890,102 +35308,297 @@ module.exports = Component.exports
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/brainframe.vue"
-
-module.exports = Component.exports
-
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "sc-container" }, [
+    _c("h1", { staticClass: "brand-logo" }, [_vm._v("Salary Calculator")]),
+    _vm._v(" "),
+    _c(
+      "form",
+      { staticClass: "main-section", attrs: { onsubmit: "return false" } },
+      [
+        _c("div", { staticClass: "main-content" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "transfer-section" }, [
+            _c(
+              "svg",
+              {
+                staticStyle: { "enable-background": "new 0 0 489.2 489.2" },
+                attrs: {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                  version: "1.1",
+                  id: "Capa_1",
+                  x: "0px",
+                  y: "0px",
+                  viewBox: "0 0 489.2 489.2",
+                  "xml:space": "preserve",
+                  width: "105px",
+                  height: "105px"
+                }
+              },
+              [
+                _c("g", [
+                  _c("g", [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M481.044,382.5c0-6.8-5.5-12.3-12.3-12.3h-418.7l73.6-73.6c4.8-4.8,4.8-12.5,0-17.3c-4.8-4.8-12.5-4.8-17.3,0l-94.5,94.5    c-4.8,4.8-4.8,12.5,0,17.3l94.5,94.5c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-73.6-73.6h418.8    C475.544,394.7,481.044,389.3,481.044,382.5z",
+                        fill: "#0da865"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M477.444,98l-94.5-94.4c-4.8-4.8-12.5-4.8-17.3,0s-4.8,12.5,0,17.3l73.6,73.6h-418.8c-6.8,0-12.3,5.5-12.3,12.3    s5.5,12.3,12.3,12.3h418.8l-73.6,73.4c-4.8,4.8-4.8,12.5,0,17.3c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6l94.5-94.5    C482.244,110.6,482.244,102.8,477.444,98z",
+                        fill: "#0da865"
+                      }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g"),
+                _vm._v(" "),
+                _c("g")
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(1)
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "aside" }, [
+          _c(
+            "a",
+            { staticClass: "toggle-link", attrs: { onclick: "showOptions()" } },
+            [
+              _vm._v("Modify Assumptions\n                "),
+              _c("div", { staticClass: "toggle-arrow" }, [
+                _c(
+                  "svg",
+                  {
+                    staticStyle: { "enable-background": "new 0 0 25.93 25.93" },
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                      version: "1.1",
+                      id: "Capa_1",
+                      x: "0px",
+                      y: "0px",
+                      viewBox: "0 0 25.93 25.93",
+                      "xml:space": "preserve",
+                      width: "12px",
+                      height: "12px"
+                    }
+                  },
+                  [
+                    _c("g", [
+                      _c("g", { attrs: { id: "c118_triangle" } }, [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M25.397,4.554h-2.042l-9.974,12.644c-0.101,0.124-0.256,0.197-0.416,0.197c-0.164,0-0.315-0.073-0.419-0.197L2.575,4.554    H0.532c-0.206,0-0.392,0.115-0.479,0.299c-0.09,0.184-0.064,0.403,0.06,0.561l12.435,15.762c0.104,0.125,0.255,0.2,0.419,0.2    c0.16,0,0.315-0.075,0.416-0.2L25.816,5.413c0.128-0.157,0.148-0.377,0.058-0.561C25.789,4.669,25.601,4.554,25.397,4.554z",
+                            fill: "#02190f"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("g", { attrs: { id: "Capa_1_184_" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(2)
+        ]),
+        _vm._v(" "),
+        _vm._m(3)
+      ]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "lg-input-wrapper" }, [
+      _c("h4", { staticClass: "lg-input-heading" }, [_vm._v("Hourly Wage")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "lg-input",
+        attrs: {
+          placeholder: "30",
+          id: "hourlyWage",
+          onchange: "hourlyUpdated()",
+          size: "1",
+          type: "tel"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "lg-input-wrapper" }, [
+      _c("h4", { staticClass: "lg-input-heading" }, [_vm._v("Annual Salary")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "lg-input",
+        attrs: {
+          placeholder: "62400",
+          id: "annualSalary",
+          onchange: "annualUpdated()",
+          size: "1",
+          type: "tel"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "toggle-items", attrs: { id: "toggle-items" } },
+      [
+        _c("div", { staticClass: "toggle-item" }, [
+          _c("h4", { staticClass: "aside-subheading" }, [
+            _vm._v("Hours per Week")
+          ]),
+          _c("input", {
+            staticClass: "aside-input",
+            attrs: {
+              value: "40",
+              id: "hoursWeek",
+              size: "1",
+              type: "tel",
+              min: "0",
+              max: "168"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "toggle-item" }, [
+          _c("h4", { staticClass: "aside-subheading" }, [
+            _vm._v("Weeks per Year ")
+          ]),
+          _c("input", {
+            staticClass: "aside-input",
+            attrs: {
+              value: "52",
+              id: "weeksYear",
+              size: "1",
+              type: "tel",
+              min: "0",
+              max: "52"
+            }
+          })
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "left-aligned" }, [
+      _c(
+        "button",
+        {
+          staticClass: "sc-main-button",
+          attrs: { onclick: "calculateSalary()" }
+        },
+        [_vm._v("What's My Wage?")]
+      )
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-8ead9f3a", module.exports)
+  }
+}
 
 /***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/portovino.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/renaissanceartists.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
+/* 44 */,
+/* 45 */,
 /* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(47)
 /* template */
-var __vue_template__ = __webpack_require__(47)
+var __vue_template__ = __webpack_require__(48)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -35025,15 +35638,131 @@ module.exports = Component.exports
 
 /***/ }),
 /* 47 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    methods: {
+        countWords: function countWords() {
+            var wordstoCount = document.getElementById("wordsToCount").value;
+            var regex = /\s+/gi;
+            var wordCount = wordstoCount.trim().replace(regex, ' ').split(' ').length;
+
+            function animateValue(id, start, end, duration) {
+                // assumes integer values for start and end
+                var obj = document.getElementById(id);
+                var range = end - start;
+                // no timer shorter than 50ms (not really visible any way)
+                var minTimer = 50;
+                // calc step time to show all interediate values
+                var stepTime = Math.abs(Math.floor(duration / range));
+
+                // never go below minTimer
+                stepTime = Math.max(stepTime, minTimer);
+
+                // get current time and calculate desired end time
+                var startTime = new Date().getTime();
+                var endTime = startTime + duration;
+                var timer = void 0;
+
+                function run() {
+                    var now = new Date().getTime();
+                    var remaining = Math.max((endTime - now) / duration, 0);
+                    var value = Math.round(end - remaining * range);
+                    obj.innerHTML = value;
+                    if (value == end) {
+                        clearInterval(timer);
+                    }
+                }
+
+                timer = setInterval(run, stepTime);
+                run();
+            }
+
+            animateValue("wordCount", 0, wordCount, 2000);
+            document.getElementById("wordCount").innerHTML = wordCount;
+        }
+    }
+});
+
+/***/ }),
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c("div", { staticClass: "wc-container" }, [
+    _c("div", { staticClass: "half-section" }, [
+      _c("form", { staticClass: "flex-form" }, [
+        _c("label", { staticClass: "main-heading" }, [
+          _vm._v("Copy & Paste Text Here")
+        ]),
+        _vm._v(" "),
+        _c("textarea", {
+          staticClass: "lg-txtarea",
+          attrs: { id: "wordsToCount" }
+        }),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "wc-main-button hvr-shutter-in-horizontal",
+            attrs: { type: "button" },
+            on: {
+              click: function($event) {
+                _vm.countWords()
+              }
+            }
+          },
+          [_vm._v("Count my Words!")]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(0)
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "half-section" }, [
+      _c("div", { staticClass: "side-section" }, [
+        _c("p", { staticClass: "main-heading" }, [
+          _vm._v("Your word count is:")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "result", attrs: { id: "wordCount" } })
+      ])
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -35044,113 +35773,8 @@ if (false) {
 }
 
 /***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/skills.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/contact.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(1)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = __webpack_require__(59)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/casestudies.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-c96af1a0", Component.options)
-  } else {
-    hotAPI.reload("data-v-c96af1a0", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
+/* 49 */,
+/* 50 */,
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -46234,97 +46858,16 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 55 */
+/***/ (function(module, exports) {
 
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container col" }, [
-    _c("div", { staticClass: "header" }, [
-      _c("h2", { staticClass: "page-header" }, [_vm._v("Case Studies")]),
-      _vm._v(" "),
-      _c(
-        "nav",
-        { staticClass: "right-nav" },
-        [
-          _c(
-            "router-link",
-            {
-              staticClass: "nav-link hvr-float active",
-              attrs: { to: "/casestudies" }
-            },
-            [_vm._v("Case Studies")]
-          ),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-link hvr-float ", attrs: { to: "/skills" } },
-            [_vm._v("Skills")]
-          ),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-link hvr-float ", attrs: { to: "/" } },
-            [_vm._v("About")]
-          ),
-          _vm._v(" "),
-          _c(
-            "router-link",
-            { staticClass: "nav-link hvr-float ", attrs: { to: "/contact" } },
-            [_vm._v("Contact")]
-          )
-        ],
-        1
-      )
-    ]),
-    _vm._v(" "),
-    _vm._m(0)
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "grid" }, [
-      _c("div", { staticClass: "grid-item item1" }, [
-        _c("h3", { staticClass: "bfr" }, [_vm._v("BRAIN")]),
-        _vm._v(" "),
-        _c("h3", { staticClass: "bfr" }, [_vm._v("FRAME")]),
-        _vm._v(" "),
-        _c("h3", { staticClass: "bfr" }, [_vm._v("RECALL")])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "grid-item item2" }, [
-        _vm._v("Salary Calculator")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "grid-item item3" }, [
-        _vm._v("Renaissance Artists")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "grid-item item4" }, [_vm._v("Word Count")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "grid-item item5" }, [_vm._v("Pepper Rodeo")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "grid-item item6" }, [_vm._v("PortoVino")])
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-c96af1a0", module.exports)
-  }
-}
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
