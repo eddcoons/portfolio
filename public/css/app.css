@@ -5145,6 +5145,12 @@ footer {
   }
 }
 @media (max-width: 750px) {
+  .top-text {
+    font-size: 2rem;
+  }
+  .typewriter-text {
+    font-size: 2rem;
+  }
   .grid-3 {
     grid-template-columns: 1fr;
   }
